@@ -1,0 +1,33 @@
+
+
+
+.contenedor {
+  background-image: url('./src/Imagenes/fondo.jpg'); 
+  background-size: cover; /* Cubrir el contenedor con la imagen */
+  background-position: center; /* Para Centrar la imagen */
+  width: 100vw; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: rgba(255, 255, 255, 0.7); /* Color de fondo del formulario con transparencia */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilos para las etiquetas y los campos de entrada */
+label, input {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+/* Estilos para el botón */
+button {
+  display: block; 
+  margin-top: 10px;
+ 
+}
